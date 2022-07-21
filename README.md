@@ -1,2 +1,2 @@
-# funcionesJSX
+# PrimerComponenteReact
 Created with CodeSandbox
