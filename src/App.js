@@ -25,6 +25,11 @@ export default function App() {
       {names.map((e) => (
         <p key={e.id}> {e.name} </p>
       ))}
+      {/* React ignora los tipos de datos null, undefined y booleanos*/}
+      <div> {null} </div>
+      <div> {undefined} </div>
+      <div> {true} </div>
+      <div> {false} </div>
     </div>
   );
 }
